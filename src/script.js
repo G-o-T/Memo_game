@@ -57,7 +57,7 @@ function appendCard(arrCards) {
         const obverse = document.createElement('div');
         obverse.classList = 'w-40 h-40 bg-violet-800 rounded-lg absolute backface-hidden rotate-y-0';
         const reverse = document.createElement('img');
-        reverse.src =`../../src/img/${c}.jpg`;
+        reverse.src =`src/img/${c}.jpg`;
         reverse.classList = 'w-40 h-40 rounded-lg absolute backface-hidden rotate-y-180';
         card.append(reverse);
         card.append(obverse);
